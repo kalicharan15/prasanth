@@ -1,0 +1,205 @@
+    1  su hduser
+    2  ssh-keygen -t rsa -P ""
+    3  cat $HOME/.ssh/id_rsa.pub >> $HOME/.ssh/authorized_keys
+    4  ssh localhost
+    5  sudo mkdir -p /usr/local/hadoop
+    6  sudo mv * /usr/local/hadoop
+    7  sudo chown -R hduser:hadoop /usr/local/hadoop
+    8  ls
+    9  sudo su hduser
+   10  sudo gedit /.bashrc
+   11  sudo gedit .bashrc
+   12  hadoop version
+   13  hadoop balancer
+   14  hadoop version
+   15  /usr/local/hadoop
+   16  cd /usr/local/hadoop
+   17  version
+   18  cd..
+   19  cd
+   20  Generating public/private rsa key pair.
+   21  Generating public/private rsa key pair
+   22  Created directory '/home/hduser/.ssh'
+   23  Created directory '/home/hduser/.ssh'.
+   24  Enter file in which to save the key (/home/hduser/.ssh/id_rsa)
+   25  Enter file in which to save the key (/home/hduser/.ssh/id_rsa): 
+   26  Created directory '/home/hduser/.ssh'
+   27  Created directory
+   28  Generating public/private rsa key pair.
+   29  Enter file in which to save the key (/home/hduser/.ssh/id_rsa): 
+   30  Created directory '/home/hduser/.ssh'
+   31  ssh localhost
+   32  ls
+   33  which javac
+   34  groups hduser
+   35  ls
+   36  wget http://mirrors.sonic.net/apache/hadoop/common/hadoop-2.6.5/hadoop-2.6.5.tar.gz
+   37  cd ~
+   38  cd /etc/apt
+   39  ls
+   40  sudo gedit apt.conf
+   41  sudo apt-get update
+   42  hadoop namenode -format
+   43  cd /usr/local/hadoop/sbin
+   44  ls
+   45  sudo su hduser
+   46  start-all.sh
+   47  jps
+   48  netstat -plten | grep java
+   49  cd usr
+   50  cd /usr
+   51  cd /local
+   52  ls
+   53  cd local/
+   54  ls
+   55  cd hadoop/
+   56  sudo chown -R hduser:hadoop /usr/local/hadoop
+   57  sudo mv * /usr/local/hadoop
+   58  histroy
+   59  history
+   60  sudo chown -R hduser:hadoop /usr/local/hadoop
+   61  sudo gedit ~/.bashrc 
+   62  sudo gedit /usr/local/hadoop/etc/hadoop/hadoop-env.sh
+   63  sudo mkdir -p /app/hadoop/tmp
+   64  sudo chown hduser:hadoop /app/hadoop/tmp
+   65  sudo gedit /usr/local/hadoop/etc/hadoop/core-site.xml
+   66  cp /usr/local/hadoop/etc/hadoop/mapred-site.xml.template /usr/local/hadoop/etc/hadoop/mapred-site.xml
+   67  cd /etc/hadoop
+   68  cd /usr/local/hadoop/etc/
+   69  ls
+   70  cd hadoop/
+   71  LS
+   72  ls
+   73  sudo gedit mapred-site.xml
+   74  cd ..
+   75  sudo mkdir -p /usr/local/hadoop_store/hdfs/datanode
+   76  sudo chown -R hduser:hadoop /usr/local/hadoop_store
+   77  sudo gedit /usr/local/hadoop/etc/hadoop/hdfs-site.xml
+   78  hadoop namenode -format
+   79  history
+   80  sudo mv * /usr/local/hadoop
+   81  ls
+   82  cd hadoop-2.6.5/
+   83  ls
+   84  cd ..
+   85  sudo mv * /usr/local/hadoop
+   86  cd hadoop-2.6.5/
+   87  sudo mv * /usr/local/hadoop
+   88  cd /usr/local/hadoop/
+   89  ls
+   90  cd
+   91  wget http://mirrors.sonic.net/apache/hadoop/common/hadoop-2.6.0/hadoop-2.6.0.tar.gz
+   92  tar xvzf hadoop-2.6.5.tar.gz
+   93  sudo mv * /usr/local/hadoop
+   94  su ds
+   95  sudo mv * /usr/local/hadoop
+   96  sudo gedit /etc/apt/apt.com
+   97  sudo gedit /etc/apt/apt.cof
+   98  sudo gedit /etc/apt/apt.conf
+   99  sudo apt-get update
+  100  hadoop
+  101  mkdir h
+  102  fs
+  103  vedrsion
+  104  version
+  105  hadoop version
+  106  history
+  107  hadoop
+  108  history
+  109  su hduser
+  110  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~good
+  111  su hduser
+  112  cd /usr/hadoop/sbin
+  113  cd / usr/hadoop/sbin
+  114  .start-all.th
+  115  .start-all.sh
+  116  cd/usr/local/hadoop/sbin
+  117  cd/usr/local/hadoop/sbin/
+  118  cd usr/local/hadoop/sbin/
+  119  .start-all.sh
+  120  ./start-all.sh
+  121  cd usr/local/hadoop/lib/native
+  122  cd /usr/local/hadoop/lib/native
+  123  mv * ../
+  124  mv *../
+  125  cd
+  126  mkdir kal
+  127  cd /usr/local/hadoop/sbib
+  128  cd /usr/local/hadoop/sbin
+  129  start-all.sh
+  130  cd /usr/local/hadoop/lib/native
+  131  mv *../
+  132  cd . .
+  133  cd
+  134  hadoop fs -stat /in/appendfile
+  135  hadoop fs -checksum hdfs:///etc/hosts
+  136  hadoop fs -mkdir/user/cloudera/bigdatalab
+  137  hadoop fs -copyFromLocal doc1.txt/home/hduser/h
+  138  hadoop fs copyFromLocal doc1.txt/home/hduser/h
+  139  hadoop fs -copyFromLocal doc1.txt/home/hduser/h
+  140  hadoop fs -mkir/doc1.txt/home/hduser/h
+  141  hadoop fs -mkdir /doc1.txt/home/hduser/h
+  142  hadoop fs -mkdir /doc2.txt/home/hduser/h
+  143  hadoop fs -mkdir /sindhu
+  144  hadoop fs -put /home/hduser/doc1.txt /sindhu
+  145  hadoop fs -put /home/hduser/h/doc1.txt /sindhu
+  146  package org.apache.hadoop.examples;
+  147  import java.io.IOException;
+  148  cd
+  149  start all
+  150  export http_proxy=http://10.1.4.1:8080
+  151  export ftp_proxy=http://10.1.4.1:8080
+  152  wget google.com
+  153  touch test
+  154  ls
+  155  cat test
+  156  vi test
+  157  cp test /tmp/
+  158  cp /tmp/test
+  159  mkdir mcet
+  160  cd mcet
+  161  touch cs
+  162  touch it
+  163  pwd
+  164  cp -r mcet /tmp
+  165  cd /tmp/
+  166  ls -la mcet
+  167  cd
+  168  ls
+  169  cd mcet
+  170  scp ifconfig
+  171  ifconfig
+  172  scp cs hduser@10.1.4.155:/tmp
+  173  ls
+  174  cd
+  175  ls
+  176  pwd
+  177  cd /tmp/
+  178  cd mce
+  179  sudo su
+  180  cd ~
+  181  ls -la
+  182  cd /home/
+  183  ls
+  184  cd hduser/mcet/
+  185  ls
+  186  pwd
+  187  git
+  188  sudo apt-get
+  189  git
+  190  sudo apt-get install git
+  191  git clone https://github.com/kalicharan15/prasanth.git
+  192  ls -l prasanth
+  193  ls -la prasanth
+  194  cd test
+  195  cd / test
+  196  cd /test
+  197  cd prasanth
+  198  cd mcet
+  199  cd /mcet
+  200  pwd
+  201  cd ~
+  202  cd mcet/
+  203  cd prasanth/
+  204  ls -la
+  205  history> 1.txt
